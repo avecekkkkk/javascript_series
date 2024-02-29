@@ -47,3 +47,35 @@ console.log(booleanisString); //output as false
 
 //In summary boolena conversion 1 => true 0 => false
 // "" => flase "avecek" => true
+
+// **************************************Operations*****************************************
+console.log("String to Number Conversion");
+
+let value = 3;
+let negvalue = -value;
+console.log(negvalue); //output shows as -3
+
+let str1 = "hello";
+let str2 = " world";
+let str3 = str1+str2;
+console.log(str3); //output shows as "hello world";
+
+console.log("1" + 2); //output shows as 12
+console.log(1 + "2"); //output shows as 12
+console.log("1" + 2 + 2); //output shows as 122
+console.log(1 + 2 + "2") //output shows as 32
+
+
+//***********************Prefix and Postfix************************** */
+
+let x = 3
+let y = x++
+console.log(x); //output x shows as 4 and y shows as 3
+console.log(y);
+
+let a = 23
+let b = ++a
+console.log(a); //output a shows as 24 and b shows as 24
+console.log(b);
+// the fact that whenever there is operator added like "++" before the operand it first increment the value and assigned it to variable
+// Whereas in the context of operator added after the operand "b++" then a = b++ & b = 2 ,it first assigned the value of b in to the a which is b = 3 and then increment where it result in a value to 2
