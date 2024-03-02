@@ -32,3 +32,25 @@ const myfunc = function(){
 }
 // Anyfunction typesof called as function which also mean the Object Function
 console.log( typeof heroes);
+
+
+//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+//Memory Types In Javascript
+// 1: Stack Memory, 2: Heap Memory
+// Stack Memory is Used by Primitive Data Types
+// Heap Memory is used by Non-Primitive Data Types
+
+let mysocialname = "avecek"; //output will shows as avecek
+let myanothername = mysocialname; //also myanothername output will show as avecek now after tha
+myanothername = "abhishek" //after changing the variable value the output will shows as `abhishek` where as the mysocialname will remain `avecek`
+
+let userone = {
+    name : "avecek",
+    age : 22
+}
+
+let usertwo = {
+    name : "avecek",
+    age : 22
+}
