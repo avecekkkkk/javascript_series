@@ -17,3 +17,14 @@ console.log(date2.toLocaleString()); //Output: 1/1/1970, 12:00:01 AM
 
 let date3 = new Date("1-23-2023");
 console.log(date3.toLocaleString());
+
+//TimeStamp
+
+let timestamp = Date.now();
+console.log(timestamp);
+console.log(date2.getTime());
+
+let tarik = new Date();
+console.log(tarik.toLocaleString('default', {
+    weekday : 'long'
+}));
