@@ -18,3 +18,40 @@ function loggedin(user = "jack"){
     return `${user} just logged in`;
 }
 console.log(loggedin());
+
+//**************************** Function Object************************
+
+function CalculateCartprice(...num1){ // `...is the rest operator that take the all argument and in some case it also known as spreader
+    return num1;
+}
+
+//CalculateCartprice(100, 200, 300); Only Print Out 200 as output
+
+console.log(CalculateCartprice(200, 300, 400)); //Output : [ 200, 300, 400 ]
+
+const objectuser = {
+    usrname: "avecek",
+    age: 20
+}
+
+function object(anyobject){
+    return(`Username is ${anyobject.usrname} and age is ${anyobject.age}`)
+}
+
+
+console.log(object(objectuser)); // must pass object as argument
+//we can also pass an value via object
+// object(objectuser{
+//     usrname: "aveekkkk",
+//     age :23
+// })
+
+const MynewArray = [100, 300, 400];
+function thisarray(newarray){
+   return newarray[2]
+}
+
+
+//console.log(thisarray(MynewArray)); //400
+console.log(thisarray([200, 400, 600]));
+
