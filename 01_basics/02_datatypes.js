@@ -14,3 +14,5 @@ let age = 23
 let isLoggedIn = false
 let state;
 console.log(typeof "avecek");
+
+console.log(typeof null);
